@@ -46,3 +46,11 @@ Each day can be categorized as follows:
 29,88,66
 30,90,45
 ```
+
+## Solution
+
+See [WeatherDataCodeKata.kt](WeatherDataCodeKata.kt).
+
+## Sample Output
+
+See [output.txt](output.txt).
