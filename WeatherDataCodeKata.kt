@@ -1,6 +1,6 @@
 
 /*
- Kotlin Code Kata
+ Kotlin Weather Data Code Kata
  
  The dataset below contains all available weather data for a particular month in a place with some very odd weather.
  The first column is the day of the month, the second the maximum temperature on that day, and the third the minimum temperature.
@@ -20,8 +20,7 @@
     (XX represents the day number, YY being the Max temp)
  3. Write a method called maxDifferential(): Pair<Int,Int> that returns AND prints the day with the maximum temperature
     differential (difference between max and min temperature)
-
- */
+*/
 
 // Day of month, Max temp, Min temp
 val weatherData = """
@@ -69,9 +68,9 @@ data class Day(val dayOfMonth: Int, val minTemp: Int, val maxTemp: Int) {
     }
     fun weatherMessage(): String {
         when (dayType()) {
-            DayType.CHILLY   -> return "Brr!  Day $dayOfMonth was cold! Max Temp: $maxTemp."
+            DayType.CHILLY   -> return "Brr!  Day $dayOfMonth was cold!       Max Temp: $maxTemp."
             DayType.SCORCHER -> return "Whew! Day $dayOfMonth was a scorcher! Max Temp: $maxTemp."
-            DayType.PLEASANT -> return "Wow!  Day $dayOfMonth was pleasant! Max Temp: $maxTemp."
+            DayType.PLEASANT -> return "Wow!  Day $dayOfMonth was pleasant!   Max Temp: $maxTemp."
         }
     }
 }
