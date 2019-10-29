@@ -1,26 +1,26 @@
-01: Whew! Day 1 was a scorcher! Max Temp: 88.
-02: Wow!  Day 2 was pleasant! Max Temp: 79.
-03: Wow!  Day 3 was pleasant! Max Temp: 77.
-04: Wow!  Day 4 was pleasant! Max Temp: 77.
-05: Whew! Day 5 was a scorcher! Max Temp: 90.
+01: Whew! Day 01 was a scorcher! Max Temp: 88.
+02: Wow!  Day 02 was pleasant!   Max Temp: 79.
+03: Wow!  Day 03 was pleasant!   Max Temp: 77.
+04: Wow!  Day 04 was pleasant!   Max Temp: 77.
+05: Whew! Day 05 was a scorcher! Max Temp: 90.
 06: Oops! No data for day 6.
-07: Brr!  Day 7 was cold! Max Temp: 55.
-08: Wow!  Day 8 was pleasant! Max Temp: 75.
-09: Whew! Day 9 was a scorcher! Max Temp: 86.
-10: Wow!  Day 10 was pleasant! Max Temp: 84.
+07: Brr!  Day 07 was cold!       Max Temp: 55.
+08: Wow!  Day 08 was pleasant!   Max Temp: 75.
+09: Whew! Day 09 was a scorcher! Max Temp: 86.
+10: Wow!  Day 10 was pleasant!   Max Temp: 84.
 11: Whew! Day 11 was a scorcher! Max Temp: 91.
 12: Whew! Day 12 was a scorcher! Max Temp: 88.
-13: Wow!  Day 13 was pleasant! Max Temp: 70.
+13: Wow!  Day 13 was pleasant!   Max Temp: 70.
 14: Oops! No data for day 14.
-15: Wow!  Day 15 was pleasant! Max Temp: 64.
-16: Wow!  Day 16 was pleasant! Max Temp: 79.
-17: Brr!  Day 17 was cold! Max Temp: 47.
-18: Wow!  Day 18 was pleasant! Max Temp: 82.
-19: Wow!  Day 19 was pleasant! Max Temp: 81.
-20: Wow!  Day 20 was pleasant! Max Temp: 84.
+15: Wow!  Day 15 was pleasant!   Max Temp: 64.
+16: Wow!  Day 16 was pleasant!   Max Temp: 79.
+17: Brr!  Day 17 was cold!       Max Temp: 47.
+18: Wow!  Day 18 was pleasant!   Max Temp: 82.
+19: Wow!  Day 19 was pleasant!   Max Temp: 81.
+20: Wow!  Day 20 was pleasant!   Max Temp: 84.
 21: Whew! Day 21 was a scorcher! Max Temp: 86.
 22: Whew! Day 22 was a scorcher! Max Temp: 90.
-23: Brr!  Day 23 was cold! Max Temp: 50.
+23: Brr!  Day 23 was cold!       Max Temp: 50.
 24: Oops! No data for day 24.
 25: Whew! Day 25 was a scorcher! Max Temp: 90.
 26: Whew! Day 26 was a scorcher! Max Temp: 97.
