@@ -68,9 +68,9 @@ data class Day(val dayOfMonth: Int, val minTemp: Int, val maxTemp: Int) {
     }
     fun weatherMessage(): String {
         when (dayType()) {
-            DayType.CHILLY   -> return "Brr!  Day $dayOfMonth was cold!       Max Temp: $maxTemp."
-            DayType.SCORCHER -> return "Whew! Day $dayOfMonth was a scorcher! Max Temp: $maxTemp."
-            DayType.PLEASANT -> return "Wow!  Day $dayOfMonth was pleasant!   Max Temp: $maxTemp."
+            DayType.CHILLY   -> return "Brr!  Day ${dayOfMonth.toString().padStart(2, '0')} was cold!       Max Temp: $maxTemp."
+            DayType.SCORCHER -> return "Whew! Day ${dayOfMonth.toString().padStart(2, '0')} was a scorcher! Max Temp: $maxTemp."
+            DayType.PLEASANT -> return "Wow!  Day ${dayOfMonth.toString().padStart(2, '0')} was pleasant!   Max Temp: $maxTemp."
         }
     }
 }
