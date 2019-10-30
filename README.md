@@ -9,7 +9,7 @@ The first column is the day of the month, the second the maximum temperature on 
  1. Print the weather data based on the max temperature, for each day of the month:
      * MaxTemp >= 85: print `Whew! Day XX was a scorcher! Max Temp: YY.`
      * MaxTemp < 85 && MaxTemp >= 60: print `Wow! Day XX was pleasant! Max Temp: YY.`
-     * MaxTemp < 60: `CHILLY`: print `Brr! Day XX was cold! Max Temp: YY.`
+     * MaxTemp < 60: print `Brr! Day XX was cold! Max Temp: YY.`
      * If there is no data for a particular day, print: `Oops! No data for day XX.`
  1. Find the day with the max temp differential, and print its info.
  
