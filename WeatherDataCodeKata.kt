@@ -1,28 +1,21 @@
 
 /*
+
  Kotlin Weather Data Code Kata
  
- The dataset below contains all available weather data for a particular month in a place with some very odd weather.
- The first column is the day of the month, the second the maximum temperature on that day, and the third the minimum temperature.
+ The dataset below contains all available weather data for a particular month in a place with some very odd weather. The first column is the day of the month, the second the maximum temperature on that day, and the third the minimum temperature.
 
- Each day can be categorized as follows:
- Max <= 85: SCORCHER
- Max < 85 && >= 60: PLEASANT
- Max < 60: CHILLY
-
- 1. Create a data structure to hold the above data (including its category) and parse it into the structure
- 2. Write a method with signature `fun printDay(day: Int)`
-    This method should do the following:
-    If day was SCORCHER print: "Whew! Day XX was a scorcher! Max Temp: YY."
-    If day was PLEASANT print: "Wow! Day XX was pleasant! Max Temp: YY."
-    If day was CHILLY   print: "Brr! Day XX was cold! Max Temp: YY."
-    If there is no data print: "Oops! No data for day XX."
-    (XX represents the day number, YY being the Max temp)
- 3. Write a method called maxDifferential(): Pair<Int,Int> that returns AND prints the day with the maximum temperature
-    differential (difference between max and min temperature)
+ 1. Create a data structure to hold the data below (including its category) and parse it into the structure.
+ 2. Print the weather data based on the max temperature, for each day of the month:
+      * MaxTemp >= 85: print `Whew! Day XX was a scorcher! Max Temp: YY.`
+      * MaxTemp < 85 && MaxTemp >= 60: print `Wow! Day XX was pleasant! Max Temp: YY.`
+      * MaxTemp < 60: print `Brr! Day XX was cold! Max Temp: YY.`
+      * If there is no data for a particular day, print: `Oops! No data for day XX.`
+ 3. Find the day with the max temp differential, and print its info.
+ 
 */
 
-// Day of month, Max temp, Min temp
+// Day of month, max temp, min temp
 val weatherData = """
 1,88,59
 2,79,63
