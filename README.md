@@ -4,17 +4,12 @@
 
 The dataset below contains all available weather data for a particular month in a place with some very odd weather.
 The first column is the day of the month, the second the maximum temperature on that day, and the third the minimum temperature.
-Each day can be categorized as follows:
-
-    MaxTemp <= 85: SCORCHER
-    MaxTemp < 85 && MaxTemp >= 60: PLEASANT
-    MaxTemp < 60: CHILLY
 
  1. Create a data structure to hold the data below (including its category) and parse it into the structure.
- 1. Print the weather data for each day of the month.
-     * If the day was `SCORCHER`, print: `Whew! Day XX was a scorcher! Max Temp: YY.`
-     * If the day was `PLEASANT`, print: `Wow! Day XX was pleasant! Max Temp: YY.`
-     * If the day was `CHILLY`, print: `Brr! Day XX was cold! Max Temp: YY.`
+ 1. Print the weather data based on the max temperature, for each day of the month:
+     * MaxTemp >= 85: print `Whew! Day XX was a scorcher! Max Temp: YY.`
+     * MaxTemp < 85 && MaxTemp >= 60: print `Wow! Day XX was pleasant! Max Temp: YY.`
+     * MaxTemp < 60: `CHILLY`: print `Brr! Day XX was cold! Max Temp: YY.`
      * If there is no data for a particular day, print: `Oops! No data for day XX.`
  1. Find the day with the max temp differential, and print its info.
  
